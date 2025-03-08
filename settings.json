@@ -1,0 +1,177 @@
+{
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "window.density.editorTabHeight": "compact",
+  "window.commandCenter": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "zenMode.hideLineNumbers": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 5,
+  "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+
+  // * Vim Stuff
+  "vim.leader": " ",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "z"],
+      "commands": ["workbench.action.toggleZenMode"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "-"],
+      "commands": ["workbench.action.decreaseViewWidth"]
+    },
+    {
+      "before": ["<leader>", "+"],
+      "commands": ["workbench.action.increaseViewWidth"]
+    },
+    {
+      "before": ["<leader>", "<down>"],
+      "commands": ["workbench.action.decreaseViewHeight"]
+    },
+    {
+      "before": ["<leader>", "<up>"],
+      "commands": ["workbench.action.increaseViewHeight"]
+    },
+    {
+      "before": ["<leader>", "w", "j"],
+      "commands": ["workbench.action.moveEditorToBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "k"],
+      "commands": ["workbench.action.moveEditorToAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "l"],
+      "commands": ["workbench.action.moveEditorToNextGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "h"],
+      "commands": ["workbench.action.moveEditorToPreviousGroup"]
+    },
+    {
+      "before": ["<leader>", "f", "h"],
+      "commands": ["editor.toggleFoldRecursively"]
+    },
+    {
+      "before": ["<leader>", "f", "l"],
+      "commands": ["editor.toggleFoldRecursively"]
+    },
+    {
+      "before": ["<leader>", "f", "j"],
+      "commands": ["editor.unfoldAll"]
+    },
+    {
+      "before": ["<leader>", "f", "k"],
+      "commands": ["editor.foldAll"]
+    }
+  ],
+
+  "vim.smartRelativeLine": false,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 189, 47, 0.5)",
+  "vim.highlightedyank.textColor": "#202020",
+  "vim.highlightedyank.duration": 150,
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
+
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#2e4045", "#ffffff"],
+  "vim.statusBarColors.insert": ["#5e3c58", "#ffffff"],
+  "vim.statusBarColors.visual": ["#83adb5", "#ffffff"],
+  "vim.statusBarColors.visualline": ["#83adb5", "#ffffff"],
+  "vim.statusBarColors.visualblock": ["#83adb5", "#ffffff"],
+  "vim.statusBarColors.commandlineinprogress": ["#2C2206", "#ffffff"],
+  "vim.statusBarColors.searchinprogressmode": ["#171819", "#ffffff"],
+  "vim.statusBarColors.surroundinputmode": ["#171819", "#ffffff"],
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.guides.bracketPairs": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#83adb5",
+    "statusBar.noFolderBackground": "#83adb5",
+    "statusBar.debuggingBackground": "#83adb5",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "top",
+
+  // * Better comments extension
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#2CFF05",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "zenMode.showTabs": "single",
+  "editor.accessibilitySupport": "off"
+}
