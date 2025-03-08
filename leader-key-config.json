@@ -1,0 +1,171 @@
+{
+    "type" : "group",
+    "actions" : [
+      {
+        "key" : "o",
+        "actions" : [
+          {
+            "value" : "/Applications/Slack.app",
+            "label" : "Slack",
+            "key" : "s",
+            "type" : "application"
+          },
+          {
+            "key" : "c",
+            "type" : "application",
+            "value" : "/Applications/Google Chrome.app",
+            "label" : "Google Chrome"
+          },
+          {
+            "value" : "/Users/axelberge/Downloads/Visual Studio Code.app",
+            "key" : "v",
+            "label" : "VSCode",
+            "type" : "application"
+          },
+          {
+            "type" : "application",
+            "key" : "t",
+            "label" : "Teams",
+            "value" : "/Applications/Microsoft Teams.app"
+          },
+          {
+            "label" : "Bitwarden",
+            "type" : "application",
+            "key" : "b",
+            "value" : "/Applications/Bitwarden.app"
+          },
+          {
+            "key" : "o",
+            "type" : "application",
+            "label" : "Obsidian",
+            "value" : "/Applications/Obsidian.app"
+          },
+          {
+            "type" : "application",
+            "label" : "Finder",
+            "key" : "f",
+            "value" : "/System/Library/CoreServices/Finder.app"
+          },
+          {
+            "value" : "https://github.com/ren-no/ren.no",
+            "key" : "g",
+            "label" : "Github",
+            "type" : "url"
+          },
+          {
+            "label" : "Question: ChatGPT",
+            "type" : "application",
+            "value" : "/Applications/ChatGPT.app",
+            "key" : "q"
+          }
+        ],
+        "type" : "group",
+        "label" : ""
+      },
+      {
+        "actions" : [
+          {
+            "label" : "",
+            "type" : "url",
+            "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols",
+            "key" : "e"
+          },
+          {
+            "key" : "p",
+            "label" : "",
+            "type" : "url",
+            "value" : "raycast://confetti"
+          },
+          {
+            "type" : "url",
+            "label" : "",
+            "key" : "c",
+            "value" : "raycast://extensions/raycast/system/open-camera"
+          }
+        ],
+        "label" : "",
+        "key" : "r",
+        "type" : "group"
+      },
+      {
+        "label" : "",
+        "key" : "b",
+        "actions" : [
+          {
+            "type" : "url",
+            "label" : "Localhost3000",
+            "value" : "http://localhost:3000/",
+            "key" : "1"
+          },
+          {
+            "type" : "url",
+            "label" : "Localhost3333(Sanity)",
+            "value" : "http://localhost:3333/",
+            "key" : "2"
+          },
+          {
+            "type" : "url",
+            "value" : "https://www.ren.no/",
+            "label" : "ren.no",
+            "key" : "3"
+          },
+          {
+            "type" : "group",
+            "key" : "4",
+            "actions" : [
+              {
+                "type" : "url",
+                "key" : "1",
+                "value" : "https://www.figma.com/files/team/1313455057209291413/all-projects?fuid=1435279375226956054",
+                "label" : "Figma/Projects"
+              },
+              {
+                "label" : "Figma/Brukerguide",
+                "type" : "url",
+                "value" : "https://www.figma.com/design/3uyeSLPn6sD01j7FXv4itO/%E2%9C%85-Brukerguide?node-id=71-1995&p=f&m=dev",
+                "key" : "2"
+              },
+              {
+                "key" : "3",
+                "type" : "url",
+                "label" : "Figma/DesignTokens",
+                "value" : "https://www.figma.com/design/B5ErWqVWt0dK3q1r6zaGVh/%F0%9F%93%90-REN-Designsystem?node-id=30-132&p=f&m=dev"
+              }
+            ],
+            "label" : "Figma"
+          },
+          {
+            "label" : "Sanity Prod",
+            "type" : "url",
+            "key" : "5",
+            "value" : "www.ren.sanity.studio"
+          }
+        ],
+        "type" : "group"
+      },
+      {
+        "key" : "n",
+        "type" : "url",
+        "value" : "raycast://extensions/raycast/window-management/next-display",
+        "label" : "Next display"
+      },
+      {
+        "type" : "url",
+        "label" : "Center",
+        "value" : "raycast://extensions/raycast/window-management/center-two-thirds",
+        "key" : "9"
+      },
+      {
+        "label" : "First Two Thirds",
+        "key" : "7",
+        "type" : "url",
+        "value" : "raycast://extensions/raycast/window-management/first-two-thirds"
+      },
+      {
+        "label" : "Last Third",
+        "value" : "raycast://extensions/raycast/window-management/last-third",
+        "type" : "url",
+        "key" : "8"
+      }
+    ]
+  }
