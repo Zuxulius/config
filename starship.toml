@@ -1,0 +1,16 @@
+[directory]
+style = "blue"
+
+[character] # See https://starship.rs/config/#character
+success_symbol = '[●](bold green)'
+error_symbol = '[●](bold red)'
+
+[git_status]
+disabled=true
+
+right_format = '$time'
+
+[time] # See https://starship.rs/config/#time
+disabled = false
+format = '[$time]($style) '
+style = 'bright-black'

@@ -1,0 +1,16 @@
+# aesthetics
+background-opacity = 0.85
+background-blur=16
+background=#000000
+#macos-titlebar-style = hidden
+
+# binds
+keybind = global:alt+space=toggle_visibility
+
+# misc
+window-width = 80
+window-height = 24
+window-save-state = never
+window-position-x = 470
+window-position-y = 100
+
