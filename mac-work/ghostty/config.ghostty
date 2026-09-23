@@ -1,8 +1,8 @@
 # aesthetics
-background-opacity = 0.85
-background-blur=16
-background=#000000
-#macos-titlebar-style = hidden
+background-image=/Users/axelberge/Pictures/iterm-rotation/wallhaven-jedpzw.jpg
+background-image-opacity=0.7
+background-blur-radius=40
+background-image-fit=cover
 
 # binds
 keybind = global:alt+space=toggle_visibility

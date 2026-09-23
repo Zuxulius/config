@@ -17,6 +17,26 @@
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["0"],
+      "after": ["^"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["editor.emmet.action.matchTag"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.toggleFold"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
       "before": ["<leader>", "z"],
       "commands": ["workbench.action.toggleZenMode"]
     },
@@ -67,22 +87,6 @@
     {
       "before": ["<leader>", "w", "h"],
       "commands": ["workbench.action.moveEditorToPreviousGroup"]
-    },
-    {
-      "before": ["<leader>", "f", "h"],
-      "commands": ["editor.toggleFoldRecursively"]
-    },
-    {
-      "before": ["<leader>", "f", "l"],
-      "commands": ["editor.toggleFoldRecursively"]
-    },
-    {
-      "before": ["<leader>", "f", "j"],
-      "commands": ["editor.unfoldAll"]
-    },
-    {
-      "before": ["<leader>", "f", "k"],
-      "commands": ["editor.foldAll"]
     }
   ],
 
@@ -109,17 +113,22 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.guides.bracketPairs": true,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#83adb5",
-    "statusBar.noFolderBackground": "#83adb5",
-    "statusBar.debuggingBackground": "#83adb5",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
-  "workbench.colorTheme": "Catppuccin Frappé",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.guides.bracketPairs": true,
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#e68bbe",
+    "tab.activeBorderTop": "#e68bbe",
+    "statusBar.background": "#2e4045",
+    "statusBar.noFolderBackground": "#2e4045",
+    "statusBar.debuggingBackground": "#2e4045",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
   },
   "workbench.activityBar.location": "top",
 
@@ -171,7 +180,28 @@
       "italic": false
     }
   ],
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-frappe",
   "zenMode.showTabs": "single",
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#e68bbe",
+    "tab.activeBorderTop": "#e68bbe"
+  },
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.sneak": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "diffEditor.ignoreTrimWhitespace": false
 }

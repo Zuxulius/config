@@ -1,0 +1,227 @@
+{
+  "actions" : [
+    {
+      "actions" : [
+        {
+          "key" : "e",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        },
+        {
+          "key" : "p",
+          "type" : "url",
+          "value" : "raycast://confetti"
+        },
+        {
+          "key" : "c",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/open-camera"
+        }
+      ],
+      "key" : "r",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "1",
+          "label" : "Localhost3000",
+          "type" : "url",
+          "value" : "http://localhost:3000/"
+        },
+        {
+          "key" : "2",
+          "label" : "Localhost3333(Sanity)",
+          "type" : "url",
+          "value" : "http://localhost:3333/"
+        },
+        {
+          "key" : "3",
+          "label" : "ren.no",
+          "type" : "url",
+          "value" : "https://www.ren.no/"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "1",
+              "label" : "Figma/Projects",
+              "type" : "url",
+              "value" : "https://www.figma.com/files/team/1313455057209291413/all-projects?fuid=1435279375226956054"
+            },
+            {
+              "key" : "2",
+              "label" : "Figma/DesignTokens",
+              "type" : "url",
+              "value" : "https://www.figma.com/design/B5ErWqVWt0dK3q1r6zaGVh/%F0%9F%93%90-REN-Designsystem?node-id=30-132&p=f&m=dev"
+            }
+          ],
+          "key" : "4",
+          "label" : "Figma",
+          "type" : "group"
+        },
+        {
+          "key" : "5",
+          "label" : "Sanity Prod",
+          "type" : "url",
+          "value" : "https://ren.sanity.studio/dashboard"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "1",
+              "label" : "RENblad",
+              "type" : "url",
+              "value" : "http://localhost:3000/innlogget/renblad-html/tilfeldig"
+            },
+            {
+              "key" : "2",
+              "label" : "Planbok",
+              "type" : "url",
+              "value" : "http://localhost:3000/innlogget/planbok-html/tilfeldig"
+            },
+            {
+              "key" : "3",
+              "label" : "Brukerguide",
+              "type" : "url",
+              "value" : "http://localhost:3000/innlogget/brukerguide/tilfeldig"
+            },
+            {
+              "key" : "4",
+              "label" : "Sjøkabelberedskap",
+              "type" : "url",
+              "value" : "http://localhost:3000/innlogget/beredskap/sjokabelberedskap#t-032c81a650cb"
+            },
+            {
+              "key" : "5",
+              "label" : "Figma-Merknader",
+              "type" : "url",
+              "value" : "https://www.figma.com/design/NGfnwexl5yli1h2WVsrXP8/%F0%9F%92%A1-RENblad--%3E-Merknader?node-id=1202-6132&p=f&m=dev"
+            },
+            {
+              "key" : "6",
+              "label" : "Storybook",
+              "type" : "url",
+              "value" : "http://localhost:6006/"
+            }
+          ],
+          "key" : "d",
+          "label" : "Dev-URLs",
+          "type" : "group"
+        },
+        {
+          "key" : "m",
+          "label" : "Mail",
+          "type" : "url",
+          "value" : "https://outlook.office365.com/mail/"
+        },
+        {
+          "key" : "c",
+          "label" : "Clippi",
+          "type" : "url",
+          "value" : "https://qtpi.tailc95137.ts.net/"
+        }
+      ],
+      "key" : "b",
+      "type" : "group"
+    },
+    {
+      "key" : "s",
+      "label" : "Slack",
+      "type" : "application",
+      "value" : "/Applications/Slack.app"
+    },
+    {
+      "key" : "c",
+      "label" : "Google Chrome",
+      "type" : "application",
+      "value" : "/Applications/Google Chrome.app"
+    },
+    {
+      "key" : "v",
+      "label" : "VSCode",
+      "type" : "application",
+      "value" : "/Users/axelberge/Downloads/Visual Studio Code.app"
+    },
+    {
+      "key" : "t",
+      "label" : "Teams",
+      "type" : "application",
+      "value" : "/Applications/Microsoft Teams.app"
+    },
+    {
+      "key" : "p",
+      "label" : "Bitwarden",
+      "type" : "application",
+      "value" : "/Applications/Bitwarden.app"
+    },
+    {
+      "key" : "o",
+      "label" : "Obsidian",
+      "type" : "application",
+      "value" : "/Applications/Obsidian.app"
+    },
+    {
+      "key" : "f",
+      "label" : "Finder",
+      "type" : "application",
+      "value" : "/System/Library/CoreServices/Finder.app"
+    },
+    {
+      "key" : "g",
+      "label" : "Github",
+      "type" : "url",
+      "value" : "https://github.com/ren-no/ren.no"
+    },
+    {
+      "key" : "q",
+      "label" : "Question: ChatGPT",
+      "type" : "application",
+      "value" : "/Applications/ChatGPT.app"
+    },
+    {
+      "key" : "l",
+      "label" : "Linear",
+      "type" : "url",
+      "value" : "https://linear.app/renas/project/redaktorverktoy-skriveopplevelsen-2c10e77706ed/issues"
+    },
+    {
+      "key" : "m",
+      "label" : "Mission Control",
+      "type" : "application",
+      "value" : "/System/Applications/Mission Control.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "t",
+          "label" : "Hostname - Test",
+          "type" : "command",
+          "value" : "~/coding_misc/bash_scripts/switch-hostname.sh t"
+        },
+        {
+          "key" : "r",
+          "label" : "Hostname - Prod",
+          "type" : "command",
+          "value" : "~/coding_misc/bash_scripts/switch-hostname.sh r"
+        },
+        {
+          "key" : "l",
+          "label" : "Hostname - Local",
+          "type" : "command",
+          "value" : "~/coding_misc/bash_scripts/switch-hostname.sh l"
+        }
+      ],
+      "key" : "u",
+      "label" : "Switch URL host",
+      "type" : "group"
+    },
+    {
+      "key" : "n",
+      "label" : "Notion",
+      "type" : "application",
+      "value" : "/Applications/Notion.app"
+    }
+  ],
+  "type" : "group"
+}
